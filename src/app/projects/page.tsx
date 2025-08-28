@@ -16,19 +16,21 @@ export default function Projects() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-12">My Projects</h1>
+        <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-12">
+          My Projects
+        </h1>
 
         {/* Featured Project - Dengue Dash */}
         <div id="dengue-dash" className="mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
             <div className="h-96 bg-gray-200 dark:bg-gray-700">
               <Slider {...sliderSettings}>
-                <img src="portfolio images/Dengue Dash/home_page.png" alt="Dengue Dash Home" />
-                <img src="portfolio images/Dengue Dash/account_details.png" alt="Account Details" />
-                <img src="portfolio images/Dengue Dash/signup_page_1.png" alt="Signup 1" />
-                <img src="portfolio images/Dengue Dash/signup_page_2.png" alt="Signup 2" />
-                <img src="portfolio images/Dengue Dash/login_page.png" alt="Login" />
-                <img src="portfolio images/Dengue Dash/user_dashboard.png" alt="User Dashboard" />
+                <img src="/images/DengueDash/home_page.png" alt="Dengue Dash Home" />
+                <img src="/images/DengueDash/account_details.png" alt="Account Details" />
+                <img src="/images/DengueDash/signup_page_1.png" alt="Signup 1" />
+                <img src="/images/DengueDash/signup_page_2.png" alt="Signup 2" />
+                <img src="/images/DengueDash/login_page.png" alt="Login" />
+                <img src="/images/DengueDash/user_dashboard.png" alt="User Dashboard" />
               </Slider>
             </div>
             <div className="p-8">
@@ -47,11 +49,11 @@ export default function Projects() {
           <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
             <div className="h-64 bg-gray-200 dark:bg-gray-700">
               <Slider {...sliderSettings}>
-                <img src="images/Dengue Dash/VotingResults.png" alt="Voting Results" />
-                <img src="portfolio images/Dengue Dash/candidate.png" alt="Candidate Page" />
-                <img src="portfolio images/Dengue Dash/Category.png" alt="Category" />
-                <img src="portfolio images/Dengue Dash/OngoingElection.png" alt="Ongoing Election" />
-                <img src="portfolio images/Dengue Dash/IskoHomePage.png" alt="Isko Home" />
+                <img src="/images/IskoVote/VotingResults.png" alt="Voting Results" />
+                <img src="/images/IskoVote/candidate.png" alt="Candidate Page" />
+                <img src="/images/IskoVote/Category.png" alt="Category" />
+                <img src="/images/IskoVote/OngoingElection.png" alt="Ongoing Election" />
+                <img src="/images/IskoVote/IskoHomePage.png" alt="Isko Home" />
               </Slider>
             </div>
             <div className="p-6">
@@ -86,11 +88,11 @@ export default function Projects() {
           <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
             <div className="h-64 bg-gray-200 dark:bg-gray-700">
               <Slider {...sliderSettings}>
-                <img src="portfolio images/OneTooMany/OneTooMany.png" alt="One Too Many Screenshot 1" />
-                <img src="portfolio images/OneTooMany/OneTooMany2.png" alt="One Too Many Screenshot 2" />
-                <img src="portfolio images/OneTooMany/OneTooMany3.png" alt="One Too Many Screenshot 3" />
-                <img src="portfolio images/OneTooMany/OneTooMany4.png" alt="One Too Many Screenshot 4" />
-                <img src="portfolio images/OneTooMany/OneTooMany5.png" alt="One Too Many Screenshot 5" />
+                <img src="/images/OneTooMany/OneTooMany.png" alt="One Too Many Screenshot 1" />
+                <img src="/images/OneTooMany/OneTooMany2.png" alt="One Too Many Screenshot 2" />
+                <img src="/images/OneTooMany/OneTooMany3.png" alt="One Too Many Screenshot 3" />
+                <img src="/images/OneTooMany/OneTooMany4.png" alt="One Too Many Screenshot 4" />
+                <img src="/images/OneTooMany/OneTooMany5.png" alt="One Too Many Screenshot 5" />
               </Slider>
             </div>
             <div className="p-6">
