@@ -28,9 +28,17 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="md:w-1/2">
-          {/* Profile Placeholder */}
-          <div className="w-64 h-64 mx-auto bg-gray-200 dark:bg-gray-800 rounded-full"></div>
+
+        {/* Profile Image */}
+        <div className="md:w-1/2 flex justify-center">
+          <Image
+            src="/images/profile.jpg" 
+            alt="Carl Benedict Profile"
+            width={256}
+            height={256}
+            className="rounded-full shadow-lg"
+            priority
+          />
         </div>
       </section>
 
@@ -41,9 +49,16 @@ export default function Home() {
             Featured Projects
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Example Project Card */}
+            {/* Dengue Dash */}
             <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 shadow-lg">
-              <div className="h-48 bg-gray-200 dark:bg-gray-600 rounded-lg mb-4"></div>
+              <div className="h-48 w-full relative mb-4">
+                <Image
+                  src="/images/DengueDash/home_page.png"
+                  alt="Dengue Dash"
+                  fill
+                  className="object-cover rounded-lg"
+                />
+              </div>
               <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
                 Dengue Dash
               </h3>
@@ -57,70 +72,59 @@ export default function Home() {
                 Learn More →
               </Link>
             </div>
+
+            {/* One Too Many */}
+            <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 shadow-lg">
+              <div className="h-48 w-full relative mb-4">
+                <Image
+                  src="/images/OneTooMany/OneTooMany.png"
+                  alt="One Too Many"
+                  fill
+                  className="object-cover rounded-lg"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+                One Too Many
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                Minimalist twin-stick bullet-hell shooter exploring digital corruption themes.
+              </p>
+              <Link
+                href="/projects#one-too-many"
+                className="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center"
+              >
+                Learn More →
+              </Link>
+            </div>
+
+            {/* Isko Vote */}
+            <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 shadow-lg">
+              <div className="h-48 w-full relative mb-4">
+                <Image
+                  src="/images/IskoVote/VotingResults.png"
+                  alt="Isko Vote"
+                  fill
+                  className="object-cover rounded-lg"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+                Isko Vote
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                University-wide election platform with secure voting and results tracking.
+              </p>
+              <Link
+                href="/projects#isko-vote"
+                className="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center"
+              >
+                Learn More →
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Summary, Work Experience, Projects, Skills, Education */}
-      <main className="container mx-auto px-4 py-20 flex-1">
-        {/* Summary */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Summary</h2>
-          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            Computer Science student with a keen interest in integrating artificial intelligence
-            into innovative software solutions. Skilled at addressing complex challenges through
-            creative problem-solving, adaptable in roles as a team leader, collaborator, or
-            independent contributor.
-          </p>
-        </section>
-
-        {/* Work Experience */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Work Experience</h2>
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Software Engineer Intern</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-2">Seaversity | June 2024 - August 2024</p>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
-              <li>Developed and maintained the LMS education tool using Laravel, Vue, and Next.js</li>
-              <li>Collaborated with the development team to implement new features</li>
-              <li>Assisted in integration of back-end and front-end components</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Full Stack Web Developer</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-2">Tawselato | Apr 2021 - Jul 2022</p>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
-              <li>Developed and maintained logistics platform using Django, React, and Tailwind CSS</li>
-              <li>Implemented tracking and payment features</li>
-              <li>Collaborated in system optimization and integration</li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Projects, Skills, Education (same as you had, but properly nested inside <main>) */}
-        {/* ... copy over your project cards and education here ... */}
-      </main>
-
-      {/* Contact CTA */}
-      <section className="bg-blue-600 text-white py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Let&#39;s Work Together</h2>
-          <p className="text-xl mb-8 opacity-90">
-            Have a project in mind? Let&#39;s discuss how I can help.
-          </p>
-          <Link
-            href="/contact"
-            className="px-8 py-3 bg-white text-blue-600 rounded-full hover:bg-gray-100 transition-colors inline-block"
-          >
-            Get in Touch
-          </Link>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="container mx-auto px-4 py-8 text-center text-gray-600 dark:text-gray-400">
-        © {new Date().getFullYear()} Carl Benedict L Elipan. All rights reserved.
-      </footer>
+      {/* ... keep rest of your content the same ... */}
     </div>
   );
 }

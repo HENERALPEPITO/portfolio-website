@@ -13,6 +13,7 @@ export default function Contact() {
               </p>
               
               <div className="space-y-6">
+                {/* Email */}
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
                     <span className="text-2xl">📧</span>
@@ -28,6 +29,7 @@ export default function Contact() {
                   </div>
                 </div>
 
+                {/* Phone */}
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
                     <span className="text-2xl">📱</span>
@@ -43,6 +45,7 @@ export default function Contact() {
                   </div>
                 </div>
 
+                {/* LinkedIn */}
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
                     <span className="text-2xl">💼</span>
@@ -50,7 +53,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">LinkedIn</h3>
                     <a 
-                      href="#" 
+                      href="https://www.linkedin.com/in/carl-benedict-elipan-73805b280/" 
                       className="text-blue-600 hover:text-blue-700"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -59,9 +62,28 @@ export default function Contact() {
                     </a>
                   </div>
                 </div>
+
+                {/* GitHub */}
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center">
+                    <span className="text-2xl">🐙</span>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">GitHub</h3>
+                    <a 
+                      href="https://github.com/HENERALPEPITO" 
+                      className="text-blue-600 hover:text-blue-700"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View My GitHub
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 
+            {/* Contact Form */}
             <div className="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg">
               <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Send a Message</h2>
               <form className="space-y-6">
