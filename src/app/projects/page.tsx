@@ -47,7 +47,7 @@ export default function Projects() {
           <div className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg">
             <div className="h-64 bg-gray-200 dark:bg-gray-700">
               <Slider {...sliderSettings}>
-                <img src="portfolio images/Dengue Dash/VotingResults.png" alt="Voting Results" />
+                <img src="images/Dengue Dash/VotingResults.png" alt="Voting Results" />
                 <img src="portfolio images/Dengue Dash/candidate.png" alt="Candidate Page" />
                 <img src="portfolio images/Dengue Dash/Category.png" alt="Category" />
                 <img src="portfolio images/Dengue Dash/OngoingElection.png" alt="Ongoing Election" />
