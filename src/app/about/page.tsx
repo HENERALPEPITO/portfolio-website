@@ -21,6 +21,7 @@ export default function About() {
                   <li>Honor Roll 2021-2022</li>
                   <li>College Scholar Second Semester (2023-2024)</li>
                   <li>University Scholar First Semester (2024-2025)</li>
+                  <li>College Scholar Second Semester (2024-2025)</li>
                 </ul>
               </div>
             </div>
