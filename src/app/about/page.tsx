@@ -8,7 +8,7 @@ export default function About() {
           <div>
             <div className="prose dark:prose-invert max-w-none">
               <p className="text-lg mb-6">
-                I&#39;m a Computer Science student with a passion for creating innovative software solutions. 
+                I&#39;m a Computer Science Graduate with a passion for creating innovative software solutions. 
                 My journey in technology has led me to explore various domains, from web development to 
                 artificial intelligence and game development.
               </p>

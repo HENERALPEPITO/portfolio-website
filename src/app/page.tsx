@@ -11,7 +11,7 @@ export default function Home() {
             Hi, I&#39;m <span className="text-blue-600">Carl Benedict</span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-            A Computer Science student and Full Stack Developer passionate about creating innovative software solutions
+            A Computer Science Graduate and Full Stack Developer passionate about creating innovative software solutions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Link
