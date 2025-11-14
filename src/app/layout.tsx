@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Carl Benedict L Elipan - Software Engineer Portfolio",
-  description: "Computer Science student and Full Stack Developer specialized in web and mobile development, with experience in AI integration and game development.",
+  description: "Computer Science Graduate and Full Stack Developer specialized in web and mobile development, with experience in AI integration and game development.",
   keywords: "Software Engineer, Full Stack Developer, Computer Science, React, Next.js, Django, Laravel, Flutter",
 };
 
